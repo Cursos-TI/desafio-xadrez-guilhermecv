@@ -1,6 +1,6 @@
 /// Movimentação das peças de xadrez - Estruturas de repetição
 /// Autor: Guilherme Camargo Valese
-/// Nível intermediário
+/// Nível Aventureiro
 #include <stdio.h>
 
 int main()
@@ -8,25 +8,25 @@ int main()
     printf("Movimentação Torre (5 casas para a direita)\n");
 
     // Estrutura de repetição para a movimentação da Torre
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < 5; i++)
     {
         printf("Direita\n");
     }
 
     // Variável utilizada na estrutura de repetição para a movimentação do bispo
     int count = 0;
-    printf("Movimentação Bispo (5 casas na diagonal)\n");
+    printf("\nMovimentação Bispo (5 casas na diagonal)\n");
 
     do
     {
         printf("Cima - Direita\n");
         count++;
-    } while (count < 4);
+    } while (count < 5);
 
     // Variável utilizada na estrutura de repetição para a movimentação da rainha
     int moves = 0;
-    printf("Movimentação da Rainha (8 casas para a esquerda)\n");
-    while (moves < 7)
+    printf("\nMovimentação da Rainha (8 casas para a esquerda)\n");
+    while (moves < 8)
     {
         printf("Esquerda\n");
         moves++;
